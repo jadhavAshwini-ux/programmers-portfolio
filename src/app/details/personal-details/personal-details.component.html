@@ -1,0 +1,32 @@
+<div class="wrapper main-wrapper">
+    <div>
+        <span class="info">{{messages.hiMsg}} {{messages.name | uppercase}}...</span>
+        <span class="info">I develop websites</span>
+    </div>
+    <div class="details" (click)="personalData()">Have a look on my Personal details..
+        <app-personal-sub-info></app-personal-sub-info>
+    </div>
+    <div class="details">My skill set.. </div>
+    <div class="tech-details">
+        <table class="tech-info">
+            <tr>
+                <td>
+                    <div class="technology space" *ngFor="let item of technologyNames">
+                        {{item}}
+                    </div>
+                </td>
+                <td>
+                    <div class="technology tech-space" *ngFor="let item of technologyValues">
+                        {{item}}
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div>
+            <span class="stay-connected">
+                <a href="{{'mailto:'+personalMailId}}"><span class="mail-icon"></span></a>
+            </span>
+        </div> </div>
+
+    <button class="primary-button btn-space" (click)="navigateToWorkDetails()">Work experience</button>
+</div>

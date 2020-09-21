@@ -1,0 +1,6 @@
+<div class="wrapper" *ngIf="!isPersonal">
+    <button class="primary-button" (click)="next()">Let's start</button>
+</div>
+<div *ngIf="isPersonal">
+    <router-outlet></router-outlet>
+</div>

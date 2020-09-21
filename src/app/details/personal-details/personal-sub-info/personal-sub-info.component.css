@@ -1,0 +1,9 @@
+.image {
+    float: right !important;
+}
+
+.text {
+    color: chocolate;  
+    font-size: 22px;  
+    margin: 20px;
+}

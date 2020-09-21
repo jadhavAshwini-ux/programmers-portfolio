@@ -1,0 +1,33 @@
+.technology {
+    padding: 10px;
+    margin: 10px;
+    color:  brown;
+    font-size: 18px;
+}
+
+.sub-header {
+    font-size: 18px;
+    color: brown;
+    padding: 20px;
+}
+
+.done {
+    margin: 0 39%;
+}
+
+.tech-space {
+    margin: 0 4%;
+}
+
+td {
+    width: 600px;
+}
+
+.desc {
+    width: 100%;
+}
+
+:host::ng-deep .tech-info  {
+    width: 100%;
+    margin: 0;
+}

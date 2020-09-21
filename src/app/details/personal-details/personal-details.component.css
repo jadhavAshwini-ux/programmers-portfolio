@@ -1,0 +1,48 @@
+
+.details {
+    color: brown;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.tech-space {
+    margin: 0 4%;
+}
+
+:host::ng-deep .tech-info {
+ margin: 0 30px;
+}
+
+.tech-details {
+    display: flex;
+}
+
+.btn-space {
+    margin-left: 80%;
+}
+
+.space {
+    margin: 0 6%;
+}
+
+.details-wrapper {
+   border-bottom: 3px solid #074363;
+   margin: 20px 0 0;
+}
+
+.info {
+    color: chocolate;  
+    font-size: 22px;  
+}
+
+ .hover .info {
+    color: cornflowerblue;;
+}
+
+.mail-icon {
+content: url(../../../assets/png/lets-connect.png);
+height: 50px;
+width: 200px;
+display: block;
+margin: 0 80%;
+}
